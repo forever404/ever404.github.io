@@ -10,7 +10,7 @@
 	<link href="./index.css" rel="stylesheet">
 </head>
 
- <style>
+<style>
      *{margin:0;padding:0;}
      a{text-decoration:none;color:#000;}
      ul{margin-top:100px;}
@@ -33,32 +33,16 @@
      li:hover ~ li::before {
        left: 0;
      }  
-
-	.card1{position: relative;
-	text-align: center;}
-	.card1 .front,.card1 .back{position: absolute;left:0;top: 0;backface-visibility: hidden;}
-	.card1 .front{transform:rotateY(0deg); transition:all 0.5s}
-	.card1 .back{transform:rotateY(180deg);transition: all 0.5s}
-	.card1:hover .front{transform: rotateY(180deg);}
-	.card1:hover .back{transform: rotateY(0deg);}	 
- </style>
-
-
+</style>
 <body>
-
- <ul>
+<ul>
 	<li><a href="#" style="color:black;text-decoration:none;" >CONTACT US</a></li>
     <li><a href="#" style="color:black;text-decoration:none;" >CTF</a></li>
 	<li><a href="#" style="color:black;text-decoration:none;" >HOME</a></li>
 </ul>
 </br>
-
-
-<div class="logo card1" align="left">
-<img src="./ever404_file/logo.png" class="front" width="450" height="350" alt=""/>
-<img src="./ever404_file/logo.png" class="back" width="450" height="350" alt=""/> 
-</div>
-<div class="container" align="middle">
+<div class="container">
+	<div align="middle"><img class="logo" src="./ever404_file/logo.png"></div>
 	<div class="title">EVER404</div>
 	<div class="flag">Hacking Everything & Share Everything</div>	
 
