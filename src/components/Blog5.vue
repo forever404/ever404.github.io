@@ -8,7 +8,7 @@
       >
       <div class="card-body">
         <h5 class="card-title">refate</h5>
-        <p class="card-text">鳥はただ、自分が飛びたいから空を飛ぶんだ</p>
+        <p class="card-text">鳥はただ、自分が飛びたいから</p>
         <a
           href="http://refate.github.io/"
           class="btn newButton"
